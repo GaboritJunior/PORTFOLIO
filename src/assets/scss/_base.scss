@@ -1,0 +1,29 @@
+
+/* Regles generales */
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+ 
+  font-size: 1.4rem;            /* 14px par défaut */
+
+}
+
+a, a:hover, a:visited{                /* ATTENTION LES LIENS SONT BLANC DANS CE MODELE*/
+  text-decoration: none;
+}
+img{
+  max-width:100%;
+  height: auto;
+  vertical-align: middle; 
+}
+
+
+
